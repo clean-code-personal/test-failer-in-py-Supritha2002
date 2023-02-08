@@ -15,4 +15,5 @@ for pair_number in result:
     assert(pair_number[0:2]==map_number)
     map_number+=1
 
+    
 print("All is well (maybe!)\n")
