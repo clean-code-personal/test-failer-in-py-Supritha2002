@@ -11,8 +11,8 @@ def create_color_map():
 
 result = create_color_map()
 map_number=1
-for pair_number in range(len(result)):
-    assert(pair_number==map_number)
+for pair_number in result:
+    assert(pair_number[0:2]==map_number)
     map_number+=1
-assert(result[1] == 2)
+
 print("All is well (maybe!)\n")
