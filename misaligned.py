@@ -12,7 +12,9 @@ def create_color_map():
 result = create_color_map()
 map_number=1
 for pair_number in result:
+    num,minor,major=pair_number.split('|')
     assert(pair_number[0:2]==map_number)
+    assert(int(num)==map_number)
     map_number+=1
 
     
