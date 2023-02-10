@@ -16,7 +16,7 @@ class TestingMisaligned(unittest.TestCase):
             self.assertIn(minor,["Blue", "Orange", "Green", "Brown", "Slate"])
             map_number+=1
         
-print("All tests passed!")
+print("All is well (maybe!)\n")
 
 if __name__ == '__main__':
     unittest.main()
