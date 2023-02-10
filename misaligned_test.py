@@ -4,7 +4,7 @@ from misaligned import *
 class TestingMisaligned(unittest.TestCase):
 
     def testing_misaligned(self):
-     #performs these checks and asserts that the length of the list is 25, which is the number of mappings that should be present
+     
         result = create_color_map()
         map_number=1
         for pair_number in result:
